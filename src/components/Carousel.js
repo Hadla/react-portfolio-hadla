@@ -65,7 +65,7 @@ class Carousel extends React.Component {
 
     render() {
         return(
-            <Container fluid={true}>
+            <Container fluid={true} className="p-card-container">
                 <Row className="justify-content-around">
                     {this.makeItems(this.state.items)}
                 </Row>

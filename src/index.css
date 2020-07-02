@@ -12,13 +12,15 @@ code {
     monospace;
 }
 
+
+
 .p-card {
-  margin: 20px;
+  margin: 40px 100px;
 }
 .p-card-image {
   border-radius: 10px;
-  width: 300px;
-  height: 480px;
+  width: 252px;
+  height: 403px;
   box-shadow: 0px 0px 3px 1px #ccc;
 }
 .p-card-info {
@@ -33,6 +35,11 @@ code {
   font-size: 16px;
   margin: 0px;
 }
+.p-card-container {
+  display: flex;
+  justify-content: center;
+ 
+}
 
 
 
@@ -43,4 +50,17 @@ code {
 .err-msg {
   color: #EE6352;
   padding: 10px 15px;
+}
+
+
+
+.about-me {
+  padding: 30px 0px;
+  
+}
+
+
+
+.download-button {
+  width: 160px;
 }
