@@ -1,5 +1,5 @@
 import React from 'react';
-// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import { useSpring, animated } from 'react-spring';
 import ProjectsPage from '../pages/ProjectsPage';
@@ -14,8 +14,8 @@ function CardInfo(props) {
       <a href={props.link} target='_blank' rel='noopener noreferrer'>
         View
       </a>
-      {/* <Link className="nav-link" to="/projects">Read more</Link>
-      <Route path="/projects" exact render={() => <ProjectsPage />}/> */}
+      <Link className="nav-link" to="/projects">Read more</Link>
+      <Route path="/projects" exact render={ <ProjectsPage />}/>
     </animated.div>
   );
 }
