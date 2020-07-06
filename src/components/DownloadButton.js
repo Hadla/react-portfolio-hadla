@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect, render } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from 'react-bootstrap/';
 
 function simulateNetworkRequest() {

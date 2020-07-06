@@ -8,7 +8,7 @@ import Cv from '../assets/CV.pdf'
 function AboutPage(props) {
   return (
     <div>
-      <Hero title={props.title} />
+      <Hero title={props.title} className="ap-hero"/>
       <Content>
         <div className="about-me">
         <p>Hello, my name is Hadla. I have a background in Finance and currently in Software Development as a </p>
@@ -18,7 +18,7 @@ function AboutPage(props) {
         <p>Highly collaborative with a history of successfully managing projects independently and within teams.</p>
         <p>I have excellent organisational skills and am constantly eager to learn.</p>
         <br/>
-        <p>You can download my CV here: <a href={Cv} download='CV Hadla Bergman.pdf' ><DownloadButton /></a></p>
+        <p>You can download my CV here. <a href={Cv} download='CV Hadla Bergman.pdf' ><DownloadButton /></a></p>
         </div>
       </Content>
     </div>
