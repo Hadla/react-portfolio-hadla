@@ -29,6 +29,10 @@ class App extends React.Component {
       },
       contact: {
         title: 'Let\'s talk!'
+      },
+      projects: {
+        subTitle: 'Projects specifics',
+        
       }
     }
   }
@@ -53,7 +57,7 @@ class App extends React.Component {
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />
-          <Route path="/projects" render={() => <ProjectsPage title={this.state.contact.title} />} />
+          <Route path="/projects" render={() => <ProjectsPage subTitle={this.state.projects.subTitle} />} />
 
           <Footer />
 
